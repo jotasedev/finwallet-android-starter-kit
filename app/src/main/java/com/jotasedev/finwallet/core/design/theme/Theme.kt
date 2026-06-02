@@ -1,6 +1,5 @@
-package com.jotasedev.finwallet.ui.theme
+package com.jotasedev.finwallet.core.design.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
