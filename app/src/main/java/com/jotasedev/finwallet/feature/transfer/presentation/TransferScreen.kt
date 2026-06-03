@@ -8,6 +8,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 fun TransferScreen(
@@ -27,4 +28,10 @@ fun TransferScreen(
             Text(text = "Back")
         }
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TransferScreenPreview(){
+    TransferScreen(onTransferSuccess = {}) { }
 }
